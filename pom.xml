@@ -27,19 +27,21 @@
 		<java.version>17</java.version>
 	</properties>
 
-	<dependencies>
-
-
-	</dependencies>
-
 	<build>
 		<pluginManagement>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<configuration>
+						<goals>install</goals>
+					</configuration>
+				</plugin>
+			</plugins>
 		</pluginManagement>
 	</build>
 
