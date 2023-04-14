@@ -7,12 +7,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.0.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 
     <packaging>pom</packaging>
     <name>sfg-pet-clinic</name>
@@ -26,6 +26,11 @@
     <properties>
 		<java.version>17</java.version>
 	</properties>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:KiraTeresa/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 	<build>
 		<pluginManagement>
